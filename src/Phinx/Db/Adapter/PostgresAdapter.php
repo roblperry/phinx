@@ -479,6 +479,9 @@ class PostgresAdapter extends PdoAdapter
                     self::PHINX_TYPE_SMALL_INTEGER,
                     self::PHINX_TYPE_INTEGER,
                     self::PHINX_TYPE_BIG_INTEGER,
+                    self::PHINX_TYPE_STRING,
+                    self::PHINX_TYPE_TEXT,
+                    self::PHINX_TYPE_CHAR,
                 ], true)
             ) {
                 $column->setPrecision($columnInfo['numeric_precision']);
